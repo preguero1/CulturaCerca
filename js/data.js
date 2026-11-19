@@ -1,0 +1,14 @@
+/* Datos de ejemplo (ficticios). d = días desde hoy. */
+window.CATS = ["Conciertos", "Teatro", "Exposiciones", "Danza", "Cine"];
+window.EVENTS = [
+  { id: 1, t: "Noche de jazz en directo", c: "Conciertos", d: 3, h: "20:30", v: "Sala Azul", a: "Calle Mayor 12", km: 1.2, p: 12, s: 38, acc: true, dur: "1 h 45 min", x: "Cuarteto Marea presenta standards y composiciones propias en formato íntimo, con coloquio final con los músicos." },
+  { id: 2, t: "La casa de los espejos", c: "Teatro", d: 4, h: "19:00", v: "Teatro Moderno", a: "Plaza del Carmen 3", km: 2.4, p: 18, s: 60, acc: true, dur: "1 h 30 min", x: "Comedia dramática sobre una familia que hereda una casa llena de secretos. Autor: colectivo Ventana." },
+  { id: 3, t: "Luz y sombra: fotografía", c: "Exposiciones", d: 5, h: "11:00", v: "Centro Cultural", a: "Av. de la Paz 40", km: 3.1, p: 0, s: 200, acc: true, dur: "Abierto hasta las 20:00", x: "Cien fotografías en blanco y negro sobre la luz urbana. Entrada libre hasta completar aforo." },
+  { id: 4, t: "Raíces", c: "Danza", d: 5, h: "18:00", v: "Auditorio Sur", a: "Calle del Sur 8", km: 4.6, p: 15, s: 45, acc: false, dur: "1 h 10 min", x: "La Compañía Nómada fusiona danza contemporánea y folclore en una pieza para ocho bailarines." },
+  { id: 5, t: "Orquesta Joven de Cámara", c: "Conciertos", d: 6, h: "20:00", v: "Auditorio Sur", a: "Calle del Sur 8", km: 4.6, p: 10, s: 80, acc: true, dur: "1 h 20 min", x: "Programa de cámara con obras de Mozart y Haydn interpretadas por jóvenes intérpretes de la ciudad." },
+  { id: 6, t: "Monólogos de otoño", c: "Teatro", d: 0, h: "21:00", v: "Sala Azul", a: "Calle Mayor 12", km: 1.2, p: 9, s: 25, acc: true, dur: "1 h 15 min", x: "Cuatro monologuistas locales, un tema: el cambio de estación. Humor para toda la noche." },
+  { id: 7, t: "Ciclo de cine mudo", c: "Cine", d: 1, h: "19:30", v: "Filmoteca Norte", a: "Calle Norte 21", km: 7.8, p: 5, s: 70, acc: true, dur: "1 h 40 min", x: "Proyección de una joya del cine mudo con acompañamiento de piano en directo." },
+  { id: 8, t: "Taller abierto de cerámica", c: "Exposiciones", d: 2, h: "17:00", v: "Casa de la Cultura", a: "Calle Olmo 5", km: 11.5, p: 0, s: 30, acc: false, dur: "2 h", x: "Muestra y taller participativo con ceramistas locales. Inscripción gratuita." },
+  { id: 9, t: "Festival de guitarra", c: "Conciertos", d: 7, h: "21:30", v: "Parque del Oeste", a: "Paseo del Oeste s/n", km: 14.3, p: 20, s: 150, acc: true, dur: "2 h", x: "Tres guitarristas de flamenco, clásica y jazz comparten escenario al aire libre." },
+  { id: 10, t: "Danza urbana en la plaza", c: "Danza", d: 4, h: "12:00", v: "Plaza Mayor", a: "Plaza Mayor s/n", km: 0.8, p: 0, s: 300, acc: true, dur: "1 h", x: "Exhibición de grupos de danza urbana de la ciudad. Actividad gratuita al aire libre." }
+];
